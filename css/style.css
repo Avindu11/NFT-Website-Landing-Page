@@ -1,0 +1,53 @@
+.nav-btn {
+  margin-inline: 1rem;
+}
+
+.nav-link:focus {
+  color: default;
+}
+
+.bg-stats-bar, .footer-bg {
+  background-color: rgba(255, 228, 196, 0.075);
+}
+
+.nav-bg {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+
+.navbar-toggler {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.nav-btn {
+  border-radius: 50px;
+  padding-inline: 1rem;
+}
+
+.trend-nft {
+  transition: all 0.3s ease-in-out;
+}
+.trend-nft:hover {
+  box-shadow: 0px 0px 10px 10px var(--bs-danger);
+}
+
+.navbar-brand {
+  transition: all 0.3s ease-in-out;
+}
+
+.artist-dp {
+  -webkit-clip-path: circle(35% at 50% 50%);
+          clip-path: circle(35% at 50% 50%);
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-inline: auto;
+  }
+  .nav-btn {
+    margin-inline: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

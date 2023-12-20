@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// Colors
+$primary: #022873;
+$light: #94F2BD;
+$info: #D9AA52;
+$danger: #021F59;
+$dark: #010D26;
+
+// $secondary:
+// $success:
+// $warning:
+
+// Navbar
+$navbar-padding-x: 2rem;
+$navbar-padding-y: 2rem;
+
+$navbar-nav-link-padding-x: 1rem;
+
+$navbar-dark-hover-color: $light;
+
+$navbar-dark-brand-hover-color: $light;
+
+$navbar-toggler-padding-y: 0.25rem;
+$navbar-toggler-padding-x: 0.25rem;
+
+$navbar-toggler-focus-width: 0;
+$navbar-dark-toggler-icon-bg: url(../assets/images/list\(2\).svg);
+
+// Input
+
+$input-bg: inherit;
+$input-border-color: $light;
+
+$input-color: $light;
+
+$input-focus-border-color: $light;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
